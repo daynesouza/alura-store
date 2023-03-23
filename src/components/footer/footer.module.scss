@@ -1,0 +1,13 @@
+/*Footer*/
+.footer{
+    background-color: var(--home__footer--backgroundColor);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__container__tittle{
+    border: 3px solid #FFFFFF;
+    padding: 1rem;    
+}

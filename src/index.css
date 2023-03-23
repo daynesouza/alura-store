@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /***GLobal***/
+  --font: 'Ubuntu', sans-serif;
+  --button--backgroundColor: #000000;
+  --button--fontColor: #FFFFFF;
+  --input--backgroundColor: #DEDEDE;
+  --select--backgroundColor: #DEDEDE;
+
+  /***Página Home***/
+  /*Header*/
+  --home__header--backgroundColor: #000000;
+
+  /*Main*/
+  --home__main--backgroundColor: #DEDEDE;
+  --home__main__form--backgroundColor: #FFFFFF;
+
+  /*Footer*/
+  --home__footer--backgroundColor: #000000;
+
+}
+.app{
+  font-family: var(--font);
+  font-weight: 400;
 }
